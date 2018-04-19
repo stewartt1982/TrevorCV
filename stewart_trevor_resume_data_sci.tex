@@ -1,0 +1,161 @@
+%________________________________________________________________________________________
+% @brief    LaTeX2e Resume for Trevor Stewart
+% @author   Trevor Stewart
+% @date     March 25 2018
+% @info     Based on Latex Resume Template by Chris Paciorek
+
+%________________________________________________________________________________________
+\documentclass[margin,line]{resume}
+\topmargin -10mm
+
+%\usepackage[utf8]{inputenc}
+%\usepackage[plmath,OT4]{polski}
+
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+%\definecolor{linkcolour}{rgb}{0,0,0}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+%\usepackage{fontspec}
+%\defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text} % pozwala na -- i ,,''
+%\setromanfont{Gentium}
+
+\newcommand{\superscript}[1]{\ensuremath{^{\textrm{#1}}}}
+\newcommand{\thh}[0]{\superscript{th}}
+\newcommand{\st}[0]{\superscript{st}}
+\newcommand{\nd}[0]{\superscript{nd}}
+\newcommand{\rd}[0]{\superscript{rd}}
+
+%\sectionwidth{10}
+% resumewidth
+
+\begin{document}
+%\title{Curriculum Vitae}
+\name{\Large Resume}
+
+\begin{resume}
+
+    %____________________________________________________________________________________
+    % Personal Information
+    \section{\mysidestyle Personal\\Information}\vspace{2mm}
+
+    \begin{tabular}{@{} l @{\hspace{28mm}} l}
+    First name / Surname:    & Trevor Stewart             \\
+    E-mail:                  & \href{stewartt1982@gmail.com}{\tt stewartt1982@gmail.com}        \\
+    Phone / Skype in:        & +15064721183 / +81(0)5031368145 \\ 
+    Profiles: & \href{https://www.linkedin.com/in/trevor-stewart-16153189}{LinkedIn}\\
+    \end{tabular}
+%\vspace{-2mm}
+
+   % ____________________________________________________________________________________
+   %  Objective
+    \section{\mysidestyle Who am I?}
+    An experimental particle physicist (ZEUS, T2K and Hyper-Kamiokande experiments) with a background in physics (PhD) and computer science (BCS).  Looking to make the transition from academia to private sector data science roles. 
+
+%\vspace{-2mm}
+
+    %____________________________________________________________________________________
+    % Research Interests
+    %\section{\mysidestyle Research\\Interests}
+    %quantum optics, quantum information, complex systems, mathematical modelling in psychology
+
+%\vspace{3mm}
+
+    %____________________________________________________________________________________
+    % Research Experience
+    \section{\mysidestyle Experience}
+
+    \begin{list2}
+
+    \item Postdoctoral Research Associate at \\\href{https://www.stfc.ac.uk/index.cfm}{Rutherford Appleton Laboratory/STFC} \hfill{Jun.2013-Jan.2018}\\
+      \textbf{T2K experiment}\\
+      -- Physics analysis utilizing the T2K near detector, ND280 (charged current anti-neutrino $\pi^{-}$)\\
+      -- Detector calibration - timing calibration and time-of-flight timing system (INGRID detector)\\
+      -- Operation, maintenance, and upgrade of the T2K near detector data acquisition system software/hardware\\
+      -- T2K Run-coordinator (In charge of the near detector complex operation during data taking)\\
+      -- Data distribution on the GRID (scientific distributed computing platform) and maintaining data distribution software\\
+      \textbf{Hyper-Kamiokande experiment}\\
+      -- R\&D: requirements of the data acquisition system for the planned Hyper-Kamiokande detector\\
+      -- R\&D: trigger algorithms to lower the $e^{-}$ energy threshold to explore new physics regimes\\
+      -- Software development for the water Cherenkov detector simulation package, WCSim (flexible implementation of experimental trigger algo./analogue signal digitization, radioactivity simulation)
+    \item Graduate Student at \href{https://www.physics.utoronto.ca/}{University of Toronto} \hfill{Sep.2006-Aug.2012}\\
+      \textbf{ZEUS experiment}\\
+      -- Development of 2 major physics analyses (see Education for details)\\
+      -- Data driven corrections to the ZEUS detector monte carlo simulation\\
+      -- Validation and study of long term data storage proposals for the ZEUS experimental data\\
+      -- Operation, maintenance and calibration of the ZEUS calorimeter and high level Third Level Trigger\\
+    \item Research Assistant \href{https://www.physics.utoronto.ca/}{University of Toronto} \hfill{Jun. 2004/5-Aug.2004/5 - May. 2006-Aug.2006}\\
+      \textbf{ZEUS experiment}\\
+      -- Maintenance, and evaluation of new triggers for the ZEUS Third Level Trigger system\\
+      -- Studied Kaon reconstruction in the ZEUS tracking detectors\\
+      -- Developed a data-driven correction to account for the effect of backsplash on the measured kinematic variables\\ 
+      \textbf{Teaching} \hfill{Sep.2007-Apr.2008/Sep.2008-Apr.2010}\\
+      -- Physics laboratory demonstration, supervision, and evaluation of first year physics/engineering science students
+    \item Teaching Assistant at \href{http://www.unb.ca/fredericton/science/depts/physics/}{University of New Brunswick} \hfill{Sep.2005-Dec.2005}\\
+      -- Physics laboratory demonstration, supervision, and evaluation of first year engineering students
+    \end{list2}
+  
+  
+    \section{\mysidestyle Research}
+
+    \begin{list2}
+    \item {\bf Related expertise}: scientific data analysis, computer programming, quantum field theory, quantum physics, statistical mechanics
+    \item {\bf Research papers}: \href{http://inspirehep.net/author/profile/T.P.Stewart.1}{All publications} Primary author: \href{http://inspirehep.net/record/1183813}{1}, \href{https://pos.sissa.it/134/367}{2} Contributor: \href{http://inspirehep.net/record/811152}{1}, \href{http://inspirehep.net/record/1269458}{2}, \href{http://inspirehep.net/record/1501882}{3}
+    \item {\bf Major Conferences/Workshops}: \\\href{http://hep2011.insight-outside.fr/}{The Europhysics Conference of High-Energy Physics, Grenoble, France, July 21-27, 2011}\\\href{https://www.jlab.org/conferences/dis2011/}{The XIX International Workshop on Deep-Inelastic Scattering and Related Subjects, Newport News, VA, USA, April 11-15, 2011}\\\href{https://indico.cern.ch/event/442094/}{$5^{th}$ International Conference on New Frontiers in Physics, Crete, Greece, July 6-14, 2016}\\\href{https://www.bnl.gov/gpuhackathon/}{GPU Hackathon 2017, Brookhaven National Laboratory, 5-9 June} 
+    \end{list2}
+
+%\vspace{-2mm}
+
+    %____________________________________________________________________________________
+    % Education
+    \section{\mysidestyle Education}
+
+    University of Toronto, Toronto, Canada \hfill {2006-2012}\\
+    \begin{list2}
+      \vspace*{-4mm}
+    \item \textbf{PhD Degree}, advisor: John Martin\\
+      thesis: \href{https://tspace.library.utoronto.ca/bitstream/1807/34931/1/Trevor_Stewart_P_201211_PhD_thesis.pdf}{Measurement of High-$Q^2$ Neutral Current cross-sections with longitudinally polarised positrons with the ZEUS Detector}
+    \item \textbf{MSc Degree}, advisor: John Martin\\
+      thesis: Charm production in High-$Q^2$ Charged Current Deep Inelastic Scattering
+    \end{list2}
+    University of New Brunswick, Fredericton, New Brunswick, Canada \hfill {2000-2005}\\
+    \begin{list2}
+      \vspace*{-4mm}
+    \item \textbf{BSc Degree} Physics, with honours
+    \item \textbf{BCS Degree} Computer Science First Division
+    \end{list2}
+
+%\vspace{-2mm}
+
+
+   %____________________________________________________________________________________
+    % Awards and Scholarships
+    \section{\mysidestyle Awards,\\Scholarships\\}
+    \begin{list2}
+    \item Ontario Graduate Scholarship (OGS) \hfill{2007}
+    \item Natural Sciences and Engineering Research Council of Canada (NSERC)\\ Undergraduate Student Research Award \hfill{2004}
+    \item Dr. A. Wilmer Duff Memorial Prize \hfill{2005}
+    \item Frank and  Isa  Pridham Memorial Scholarship \hfill{2001}
+    \item UNB Fredericton Scholarship Guarantee \hfill {2000}
+    \end{list2}
+
+%\vspace{-2mm}
+
+    %____________________________________________________________________________________
+    % Skills
+    \section{\mysidestyle Skills}
+    \begin{list2}
+        \item Languages: English (native), Japanese (basic - conversational)
+        \item Programming languages: Python (data science stack: NumPy, SciPy, Pandas, scikit-learn, XGBoost, TensorFlow), C, C++, FORTRAN, Perl. Some experience with: x86 and 68HC11 assembly, R, Java, CUDA
+        \item Technologies: LaTeX, Git, SVN, MS Office Suite (Powerpoint, Word, Excel), Linux, Windows, OSX, batch and GRID computing
+        \item Communication: Scientific presentations (internal and international conferences), public science communication, scientific paper writing
+        \item Team management: Management of scientific projects as T2K Run-Coordinator
+    \end{list2}
+
+%________________________________________________________________________________________
+\end{resume}
+\end{document}
+
+%________________________________________________________________________________________
+% EOF
